@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 100%;
+  margin: 5px 15px;
+}
+.block1 {
+  width: 15%;
+  min-height: 50px;
+  float: left;
+  padding: 5px;
+}
+.block2 {
+  width: 60%;
+  min-height: 50px;
+  float: left;
+  padding: 5px;
+}
+.block3 {
+  width: 25%;
+  min-height: 50px;
+  float: left;
+  padding: 5px;
+  background-color: blue;
+}
+.image {
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .block1 {width: 100%;}
+  .block2 {width: 100%;}
+  .block3 {width: 100%;}
+}

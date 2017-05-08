@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 100%;
+  margin: 5px 15px;
+}
+.heading {
+  width: 99%;
+  min-height: 100px;
+  background-color: orange;
+}
+.block {
+  width: 33%;
+  min-height: 300px;
+  float: left;
+  padding: 5px;
+}
+.city_images {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 960px) {
+  .block {width: 100%;}
+  .city_images {width: 100%;}
+}

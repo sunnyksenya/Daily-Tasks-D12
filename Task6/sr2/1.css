@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrap {
+  width: 100%;
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.logo {
+  width: 100%;
+}
+.two-in-line {
+  width: 49%;
+}
+.three-in-line {
+  width: 33%;
+}
+.four-in-line {
+  width: 24%;
+}
+@media screen and (max-width: 960px) {
+.four-in-line {width: 49%;}
+}
